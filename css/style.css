@@ -52,10 +52,15 @@
     border: 0px;
     padding: 0 24px;
   }
-  
+
+   /* Step 4 I am turning the entire main element into a flex-container */
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   nav button {
@@ -65,14 +70,6 @@
     border: 0;
     color: #ffffff;
     font-weight: 500;
-  }
-
-  /* Step 4 I am turning the entire main element into a flex-container */
-  main {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
   }
 
  
@@ -106,9 +103,9 @@
   .card-footer {
     display: flex;
     justify-content: space-between;
-    /* padding: 10px; */
   }
 
+  /* Step 4 using padding and margin I added spacing between all the elements with the class card */
   .card {
     padding: 10px;
     margin: 5px;
